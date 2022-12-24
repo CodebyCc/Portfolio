@@ -28,7 +28,7 @@ const Featured = () => {
       info: "This is the official webpage for imaginary pizza in Ghana",
       img: "/images/pizzain.png",
       link: "https://pizzain.netlify.app",
-      gitLink: "https://github.com/CodebyCc/to-do-list",
+      gitLink: "https://github.com/CodebyCc/pizz-App",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ const Featured = () => {
       info: "This is a clone of netflix,Paid streaming service for movies, documentaries and a lots of exiciting stuffs .  ",
       img: "/images/netflix.png",
       link: "https://netflixclonec.netlify.app/",
-      gitLink: "https://github.com/CodebyCc/to-do-list",
+      gitLink: "https://github.com/CodebyCc/Netflix-Clone",
     },
   ];
   return (

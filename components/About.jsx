@@ -29,18 +29,21 @@ const About = () => {
         </p>
 
         <p className={styles.textP}>
-          Until recently, creating dynamic websites with tools like Wordpress
-          was common practice. Compared to modern technologies though, today
-          this approach seems inflexible and clunky, especially regarding the
-          performance of the resulting website.
+          I am a resourceful teamplayer with experience in software applications
+   Well-versed in problem solving.Skilled at project support with proven history 
+   of solution-oriented problem solving. It is my ambition to actively contribute to growth 
+   of an oragnisation where my analytic and technical skills could be utilized to its fullest potential.
+
         </p>
         <p className={styles.textP}>
           Javascript libraries like React and modern Static Site Generators like
           Nextjs allow for the creation of static assets or server side
-          rendering with all the possibilities dynamic web applications have to
-          offer. So you'll get the best of both worlds
+          rendering with all the possibilities dynamic web applications have to 
+          offer. That entails a range of advantages, especially regarding the
+          performance, the flexibility, the security, the scalability and the
+          costs of the resulting website.
         </p>
-        <p className={styles.textP}>
+        {/* <p className={styles.textP}>
           That entails a range of advantages, especially regarding the
           performance, the flexibility, the security, the scalability and the
           costs of the resulting website. All while content creators - through
@@ -51,7 +54,7 @@ const About = () => {
           base, mobile applications can run on both IOS and Android platforms
           And that's what it's all about in the end: Creating the best possible
           experience for the client and for the user.
-        </p>
+        </p> */}
       </div>
       <div className={styles.container}>
         <Image src="/images/recat.png" height="100px" width="100px" />
