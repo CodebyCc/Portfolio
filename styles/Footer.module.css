@@ -1,0 +1,10 @@
+.btnOne {
+  @apply text-2xl  font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.4rem] w-[20rem] h-16   hover:bg-[#000533] hover:text-[white]  transition-all duration-300;
+  color: #000533;
+  border: solid 1px #000533;
+}
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+}

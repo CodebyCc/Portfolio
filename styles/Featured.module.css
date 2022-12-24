@@ -1,0 +1,119 @@
+.imgContainer {
+  @apply object-cover relative;
+  height: 50rem;
+  width: 85%;
+  left: 7%;
+  top: -5%;
+  margin-bottom: 0;
+}
+.infoContainer {
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+.headingOne {
+  @apply text-4xl text-center font-bold;
+  color: #000533;
+  margin-top: 5rem;
+}
+.headingTwo {
+  @apply text-3xl text-center;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  color: #000533;
+}
+
+.ProjectHeading {
+  @apply text-4xl text-left font-bold;
+  margin-bottom: 1rem;
+  color: #000533;
+}
+
+.text {
+  @apply text-2xl;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.btnOne {
+  @apply text-2xl  font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.4rem] w-[20rem] h-16   hover:bg-[#000533] hover:text-[white]  transition-all duration-300;
+  color: #000533;
+  border: solid 1px #000533;
+}
+
+.infoContainer {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.gitContainer {
+  @apply text-2xl cursor-pointer text-[#000533];
+  display: inline-block;
+  margin-left: 2rem;
+}
+@media screen and (min-width: 720px) {
+  .imgContainer {
+    height: 30vh;
+    width: 60vw;
+    left: 120px;
+    top: -2rem;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .container {
+    @apply grid grid-cols-1 md:grid-cols-2;
+
+    place-items: center;
+  }
+
+  .infoContainer {
+    padding-bottom: 7rem;
+    margin-top: 0;
+    /* animation: slidein 2s none normal ease-out; */
+  }
+  .text {
+    width: 50ch;
+  }
+  .imgContainer {
+    @apply object-cover relative;
+    height: 60vh;
+    width: 35vw;
+    left: -80px;
+    top: 0;
+  }
+  .imgContainer:hover {
+    animation: scale 1s none normal ease-out;
+  }
+  .btnOne {
+    @apply text-2xl  font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.4rem] w-[20rem] h-16   hover:bg-[#000533] hover:text-[white]  transition-all duration-300;
+    color: #000533;
+    border: solid 1px #000533;
+  }
+}
+
+.animation-pop {
+  animation-name: slidein;
+  animation-duration: 1s;
+  /* animation-iteration-count: infinite; */
+  animation-direction: normal;
+  animation-timing-function: ease-out;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.3);
+  }
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(20%);
+  }
+}
