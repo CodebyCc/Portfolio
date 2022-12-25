@@ -6,6 +6,9 @@
   top: -5%;
   margin-bottom: 0;
 }
+.imgContainer:hover {
+  animation: scale 1s none normal ease-out;
+}
 .infoContainer {
   margin-bottom: 1rem;
   margin-left: 3rem;
@@ -81,9 +84,7 @@
     left: -80px;
     top: 0;
   }
-  .imgContainer:hover {
-    animation: scale 1s none normal ease-out;
-  }
+
   .btnOne {
     @apply text-2xl  font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.4rem] w-[20rem] h-16   hover:bg-[#000533] hover:text-[white]  transition-all duration-300;
     color: #000533;
