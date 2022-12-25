@@ -42,7 +42,7 @@ const Featured = () => {
     {
       id: 5,
       ProjectName: "Netflix Clone",
-      info: "This is a clone of netflix,Paid streaming service for movies, documentaries and a lots of exiciting stuffs .  ",
+      info: "This is a clone of netflix,Paid streaming service for movies, documentaries and a lots of exiciting entertaiment.  ",
       img: "/images/netflix.png",
       link: "https://netflixclonec.netlify.app/",
       gitLink: "https://github.com/CodebyCc/Netflix-Clone",

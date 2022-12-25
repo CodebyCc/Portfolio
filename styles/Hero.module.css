@@ -9,11 +9,13 @@
 }
 
 .headTwo {
-  color: rgb(0, 0, 0);
+
   display: block;
+  
 }
 .heading {
-  @apply text-5xl font-bold;
+  @apply text-5xl ;
+  color: #000533;
   position: relative;
   top: 50%;
   left: 50%;
@@ -26,7 +28,7 @@
   margin-bottom: 1.5rem;
 }
 .headingTwo {
-  @apply text-6xl font-bold;
+  @apply text-6xl ;
   position: relative;
   top: 50%;
   left: 50%;
@@ -34,6 +36,7 @@
   transform: translate(-50%, -50%);
   white-space: nowrap;
   overflow: hidden;
+  color: #000533;
   animation: typewriter 4s steps(15) 5s 1 both, blinkCursor 500ms steps(19) 4s;
 }
 
@@ -58,7 +61,7 @@
 @media screen and (min-width: 1020px) {
   .headTwo {
     display: inline;
-    color: black;
+    /* color: black; */
   }
   .head {
     display: inline;

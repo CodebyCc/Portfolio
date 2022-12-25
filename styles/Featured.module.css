@@ -1,6 +1,6 @@
 .imgContainer {
   @apply object-cover relative;
-  height: 50rem;
+  height: 30rem;
   width: 85%;
   left: 7%;
   top: -5%;
@@ -56,6 +56,7 @@
     left: 120px;
     top: -2rem;
   }
+  
 }
 
 @media screen and (min-width: 1020px) {
@@ -68,7 +69,7 @@
   .infoContainer {
     padding-bottom: 7rem;
     margin-top: 0;
-    /* animation: slidein 2s none normal ease-out; */
+    animation: slidein .5s none normal ease-out;
   }
   .text {
     width: 50ch;

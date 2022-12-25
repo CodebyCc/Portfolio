@@ -8,7 +8,7 @@ const About = () => {
       <div className={styles.main}>
         <h2 className={styles.heading}>About me</h2>
         <p className={styles.textP}>
-          My name is George Boateng ,I am Web developer with expertise in
+          My name is George Boateng ,I am Self-taught Web developer with expertise in
           frontend development. My fascination with technology is the
           inspiration behind my constant desire to create beautiful and
           responsive UI I am consistently looking for ways to design amazing
@@ -18,21 +18,18 @@ const About = () => {
           primary focus is on the front end.This and many more is what i live
           for
         </p>
-        <h2 className={styles.heading}>Technologies I Use</h2>
         <p className={styles.textP}>
           The web like the world is known for one thing which is change. The
           only constant in the web is change and with it the possibilities to
-          implement websites and web applications. Following the modern
-          JAMSTACK-philosophy and using tools like Static Site Generators,
-          Headless CMS and a serverless architecture make it possible to create
-          modern, state of the art web experiences.
+          implement websites and web applications hence some essential skills required to succeed as a developer is adabptabilty and resilience.
         </p>
 
-        <p className={styles.textP}>
+        <p className={styles.textP}> Creating the best possible
+          experience for the client and for the user requires a developer to possess a sense of curiosity to always stay ahead of the curve
           I am a resourceful teamplayer with experience in software applications
    Well-versed in problem solving.Skilled at project support with proven history 
    of solution-oriented problem solving. It is my ambition to actively contribute to growth 
-   of an oragnisation where my analytic and technical skills could be utilized to its fullest potential.
+   of an organisation where my analytic and technical skills could be utilized to its fullest potential.
 
         </p>
         <p className={styles.textP}>
@@ -52,8 +49,7 @@ const About = () => {
           requirements. Building truly native cross-platform mobile applications
           has also never been easier with React-Native, now with a single code
           base, mobile applications can run on both IOS and Android platforms
-          And that's what it's all about in the end: Creating the best possible
-          experience for the client and for the user.
+          And that's what it's all about in the end:
         </p> */}
       </div>
       <div className={styles.container}>
