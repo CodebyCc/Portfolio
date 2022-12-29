@@ -5,6 +5,7 @@ import Image from "next/image";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CopyrightIcon from '@mui/icons-material/Copyright';
+import EmailIcon from '@mui/icons-material/Email';
 
 const d = new Date()
 const date = d.getFullYear()
@@ -20,6 +21,9 @@ const Footer = () => {
  </a></Link>
  <Link href="https://github.com/CodebyCc">
     <a target="_blank"><GitHubIcon fontSize="large"/>
+ </a></Link>
+ <Link href="mailto:ciici6440@gmail.com">
+    <a target="_blank"><EmailIcon fontSize="large"/>
  </a></Link>
  
  

@@ -14,9 +14,9 @@
   justify-content: space-evenly;
   align-items: center;
   margin: auto;
-  height:20vh;
+  height:80%;
   width: 30vw;
-  border-bottom:solid 1px white;
+
   color: white;
 }
 .icon{
@@ -25,10 +25,11 @@ padding-left: 2rem;
 .headingTwo {
   @apply text-2xl text-center ;
 color: white;
-margin-top: 15rem
+border-top:solid 1px white;
+padding-top: 3rem;
+
 }
 .footerContainer {
-
   display: flex;
   justify-content: center;
   max-width: 100vw;
