@@ -63,9 +63,9 @@ const Featured = () => {
         return (
           <div key={project.id} className={styles.container}>
             <motion.div 
-             initial={{ x: -100 }}
-  whileInView={{ x: 0 }} 
-  transition={{type:"tween" , duration:0.8 ,delay:0.3}}
+            initial={{ opacity:0 }}
+  whileInView={{ opacity:1 }} 
+  transition={{type:"ease" , duration:0.8, delay:0.1}}
             className={styles.infoContainer}>
               <h2 className={styles.ProjectHeading}>{project.ProjectName}</h2>
               <p className={styles.text}>{project.info}</p>
@@ -83,7 +83,7 @@ const Featured = () => {
             </motion.div>
             <motion.div initial={{ x: -100 }}
              whileInView={{ x: 0 }} 
-            transition={{type:"tween" , duration:0.8 ,delay:0.3 ,}} className={styles.imgContainer}>
+            transition={{type:"tween" , duration:0.8 ,delay:0.1}} className={styles.imgContainer}>
               <Image
                 src={project.img}
                 className={styles.img}

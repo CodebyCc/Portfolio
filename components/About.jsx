@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 
 
-const paragraphs = [{id:1,p:"My name is George Boateng ,I am Self-taught Web developer with expertise infrontend development. My fascination with technology is theinspiration behind my constant desire to create beautiful andresponsive UI I am consistently looking for ways to design amazing user interfaces . I am diligent in my creative process and pay close adherence to tiniest of details ,This enables me to create unique experiences for users of my craft. Although I know a little backend my primary focus is on the front end.This and many more is what i livefor"},
+const paragraphs = [{id:1,p:"My name is George Boateng ,I am Self-taught Web developer with expertise infrontend development. My fascination with technology is the inspiration behind my constant desire to create beautiful andresponsive UI I am consistently looking for ways to design amazing user interfaces . I am diligent in my creative process and pay close adherence to tiniest of details ,This enables me to create unique experiences for users of my craft. Although I know a little backend my primary focus is on the front end.This and many more is what i live for."},
 
 
 {id:2,p:" The web like the world is known for one thing which is change. The only constant in the web is change and with it the possibilities toimplement websites and web applications hence some essential skills required to succeed as a developer is adabptabilty and resilience."},
@@ -24,14 +24,15 @@ const About = () => {
         {paragraphs.map((paragraph)=>{
         return (<motion.p  initial={{ opacity:0 }}
   whileInView={{ opacity:1 }} 
-  transition={{type:"tween" , duration:1, delay:0.2}}   
+  transition={{type:"tween" , duration:0.8, delay:0.1}} 
   className={styles.textP}>
-          {paragraph.p}</motion.p>) 
+          {paragraph.p}
+          </motion.p>) 
       })}
       </div>
       <motion.div  initial={{ opacity:0 }}
   whileInView={{ opacity:1 }} 
-  transition={{type:"tween" , duration:1, delay:0.3}} className={styles.container}>
+  transition={{type:"tween" , duration:0.8, delay:0.3}} className={styles.container}>
         <Image src="/images/recat.png" height="100px" width="100px" />
         <Image src="/images/next.jss.png" height="100px" width="100px" />
         <Image src="/images/js1.png" height="100px" width="100px" />
