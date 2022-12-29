@@ -52,10 +52,10 @@ const Featured = () => {
     <div >
       <motion.h2  initial={{ opacity:0 }}
   whileInView={{ opacity:1 }} 
-  transition={{type:"tween" , duration:1, delay:0.3}}className={styles.headingOne}>Projects</motion.h2>
-      <motion.h3  initial={{ x: 200 }}
+  transition={{type:"tween" , duration:1, delay:0.3}} className={styles.headingOne}>Projects</motion.h2>
+      <motion.h3  initial={{ x: -100 }}
   whileInView={{ x: 0 }} 
-  transition={{type:"tween" , duration:2 ,delay:0.4}} className={styles.headingTwo}>
+  transition={{type:"tween" , duration:1 ,delay:0.4}} className={styles.headingTwo}>
         The projects listed are a collection of personal and client projects to
         exhibit the qualities and skills i posses.
       </motion.h3>
@@ -81,7 +81,7 @@ const Featured = () => {
                 </a>
               </Link>
             </motion.div>
-            <motion.div initial={{ x: 200 }}
+            <motion.div initial={{ x: -100 }}
              whileInView={{ x: 0 }} 
             transition={{type:"tween" , duration:0.8 ,delay:0.3 ,}} className={styles.imgContainer}>
               <Image
