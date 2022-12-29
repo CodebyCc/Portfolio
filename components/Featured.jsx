@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Featured.module.css";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
 import Link from "next/link";
 
 const Featured = () => {
@@ -49,16 +49,24 @@ const Featured = () => {
     },
   ];
   return (
-    <div>
-      <h2 className={styles.headingOne}>Projects</h2>
-      <h3 className={styles.headingTwo}>
+    <div >
+      <motion.h2  initial={{ opacity:0 }}
+  whileInView={{ opacity:1 }} 
+  transition={{type:"tween" , duration:1, delay:0.3}}className={styles.headingOne}>Projects</motion.h2>
+      <motion.h3  initial={{ x: 200 }}
+  whileInView={{ x: 0 }} 
+  transition={{type:"tween" , duration:2 ,delay:0.4}} className={styles.headingTwo}>
         The projects listed are a collection of personal and client projects to
         exhibit the qualities and skills i posses.
-      </h3>
+      </motion.h3>
       {projects.map((project) => {
         return (
           <div key={project.id} className={styles.container}>
-            <div className={styles.infoContainer}>
+            <motion.div 
+             initial={{ x: -100 }}
+  whileInView={{ x: 0 }} 
+  transition={{type:"tween" , duration:0.8 ,delay:0.3}}
+            className={styles.infoContainer}>
               <h2 className={styles.ProjectHeading}>{project.ProjectName}</h2>
               <p className={styles.text}>{project.info}</p>
               <Link href={project.link}>
@@ -69,18 +77,20 @@ const Featured = () => {
 
               <Link href={project.gitLink}>
                 <a target="_blank">
-                  <span className={styles.gitContainer}> Source Code</span>
+                  <span className={styles.gitContainer}>Source Code</span>
                 </a>
               </Link>
-            </div>
-            <div className={styles.imgContainer}>
+            </motion.div>
+            <motion.div initial={{ x: 200 }}
+             whileInView={{ x: 0 }} 
+            transition={{type:"tween" , duration:0.8 ,delay:0.3 ,}} className={styles.imgContainer}>
               <Image
                 src={project.img}
                 className={styles.img}
                 layout="fill"
                 objectFit="contain"
               />
-            </div>
+            </motion.div>
           </div>
         );
       })}
