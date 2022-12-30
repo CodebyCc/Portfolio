@@ -38,8 +38,6 @@ const Footer = () => {
 };
 
 {
-  /* <Link href="mailto:ciici6440@gmail.com">
-<button className={styles.btnOne}>View Live</button>
-</Link> */
+  
 }
 export default Footer;

@@ -5,14 +5,14 @@ import { motion } from "framer-motion";
 
 
 
-const paragraphs = [{id:1,p:"My name is George Boateng ,I am Self-taught Web developer with expertise infrontend development. My fascination with technology is the inspiration behind my constant desire to create beautiful andresponsive UI I am consistently looking for ways to design amazing user interfaces . I am diligent in my creative process and pay close adherence to tiniest of details ,This enables me to create unique experiences for users of my craft. Although I know a little backend my primary focus is on the front end.This and many more is what i live for."},
+const paragraphs = [{id:1,p:"My name is George Boateng ,I am Self-taught Web developer with expertise infrontend development. My fascination with technology is the inspiration behind my constant desire to create beautiful andresponsive UI I am consistently looking for ways to design amazing user interfaces . I am diligent in my creative process and pay close adherence to tiniest of details ,This enables me to create unique experiences for users of my craft."},
 
 
-{id:2,p:" The web like the world is known for one thing which is change. The only constant in the web is change and with it the possibilities toimplement websites and web applications hence some essential skills required to succeed as a developer is adabptabilty and resilience."},
-{id:3,p:"Creating the best possible experience for the client and for the user requires a developer to possess a sense of curiosity to always stay ahead of the curve I am a resourceful teamplayer with experience in software applications Well-versed in problem solving.Skilled at project support with proven history  of solution-oriented problem solving. It is my ambition to actively contribute to growth  of an organisation where my analytic and technical skills could be utilized to its fullest potential."},
 
+{id:2,p:" I have a strong foundation in HTML, CSS, and JavaScript. I am proficient in responsive design and have experience using frameworks such as Bootstrap and React. I am a quick learner and always eager to expand my skills and knowledge in the field. I have a passion for creating visually appealing and user-friendly websites, and I am committed to delivering high-quality work on time. I am a team player and enjoy collaborating with designers and back end developers to bring projects to life. I am excited to continue growing my career as a front end developer and to tackle new challenges"},
 
-{id:4,p:" Javascript libraries like React and modern Static Site Generators like Nextjs allow for the creation of static assets or server side rendering with all the possibilities dynamic web applications have to offer. This entails a range of advantages, especially regarding the performance, the flexibility, the security, the scalability and the      costs of the resulting website."}]
+{id:3,p:" The web like the world is known for one thing which is change. The only constant in the web is change and with it the possibilities to implement websites and web applications hence some essential skills required to succeed as a developer is adabptabilty and resilience."},
+{id:4,p:" Javascript libraries like React and modern Static Site Generators like Nextjs allow for the creation of static assets or server side rendering with all the possibilities dynamic web applications have to offer. This entails a range of advantages, especially regarding the performance, the flexibility, the security, the scalability and the costs of the resulting website."}]
 
 
 
