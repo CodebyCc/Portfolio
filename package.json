@@ -13,18 +13,20 @@
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "framer-motion": "^7.6.2",
-    "next": "latest",
+    "next": "^15.3.8",
     "next-reveal": "^1.0.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.6.0"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.5",
-    "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.2",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
+    "tailwindcss-motion": "^1.1.1",
     "typescript": "4.7.2"
   }
 }

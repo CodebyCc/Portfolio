@@ -26,8 +26,7 @@
 }
 
 .ProjectHeading {
-  @apply text-4xl text-left font-bold;
-  margin-bottom: 1rem;
+  @apply text-2xl text-left font-bold mb-2;
   color: #000533;
 }
 
@@ -59,7 +58,6 @@
     left: 120px;
     top: -2rem;
   }
-  
 }
 
 @media screen and (min-width: 1020px) {
@@ -72,7 +70,7 @@
   .infoContainer {
     padding-bottom: 7rem;
     margin-top: 0;
-    animation: slidein .5s none normal ease-out;
+    animation: slidein 0.5s none normal ease-out;
   }
   .text {
     width: 50ch;

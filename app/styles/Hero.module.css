@@ -1,43 +1,43 @@
-.container {
-  height: 100vh;
-  width: 100%;
-}
-
 .head {
   color: rgb(255, 183, 88);
   display: block;
 }
 
 .headTwo {
-
   display: block;
-  
 }
 .heading {
-  @apply text-5xl ;
-  color: #000533;
+  @apply text-3xl md:font-semibold;
+
   position: relative;
-  top: 50%;
+  top: 25%;
   left: 50%;
-  text-align: center;
+
   transform: translate(-50%, -50%);
-  border-right: 4px solid rgb(255, 255, 255);
+  border-right: 4px solid rgb(0, 0, 0);
   white-space: nowrap;
   overflow: hidden;
-  animation: typewriter 4s steps(15) 1s 1 both, blinkCursor 500ms steps(19) 1;
-  margin-bottom: 1.5rem;
+  animation:
+    typewriter 4s steps(15) 1s 1 both,
+    blinkCursor 100ms steps(20) 1;
+  line-height: 1.8em; /* or higher */
+
+  margin-bottom: 3.5rem;
 }
 .headingTwo {
-  @apply text-6xl ;
+  @apply text-xl;
   position: relative;
-  top: 50%;
+  top: 60%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
   white-space: nowrap;
   overflow: hidden;
-  color: #000533;
-  animation: typewriter 4s steps(15) 5s 1 both, blinkCursor 500ms steps(19) 4s;
+  line-height: 1.8em;
+
+  animation:
+    typewriter 4s steps(15) 5s 1 both,
+    blinkCursor 500ms steps(29) 4s;
 }
 
 @keyframes typewriter {
