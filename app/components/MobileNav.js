@@ -58,16 +58,16 @@ function MobileNav() {
             </li> */}
 
             <li className=" hover:text-red-500 mb-20 mt-20  mr-2">
-              <Link href="/pickup">About Me</Link>
+              <Link href="#aboutme">About Me</Link>
             </li>
             <li className=" text-yellow-600 hover:text-yellow-400  mb-20 mt-20  mr-2">
-              <Link href="/about">Projects+</Link>
+              <Link href="#projects">Projects+</Link>
             </li>
             <li className=" hover:text-green-600 mb-20 mt-20  mr-2">
               <Link href="/pickup">Skills</Link>
             </li>
             <li className=" hover:text-black mb-20 mt-20  mr-2">
-              <Link href="/pickup">Contact Me</Link>
+              <Link href="#footer">Contact Me</Link>
             </li>
           </ul>
         </div>

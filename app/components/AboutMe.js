@@ -1,6 +1,9 @@
 function AboutMe() {
   return (
-    <div className="max-w-4xl text-center mx-auto   flex flex-col justify-center ">
+    <div
+      id="aboutme"
+      className="max-w-4xl text-center mx-auto   flex flex-col justify-center "
+    >
       {" "}
       <h1 className=" text-3xl mt-4 font-semibold  text-gray-900 md:text-4xl animate-pulse mb-6">
         About Me.

@@ -14,29 +14,29 @@
   margin-left: 3rem;
 }
 .headingOne {
-  @apply text-4xl text-center font-bold;
+  @apply text-2xl text-center font-bold;
   color: #000533;
   margin-top: 5rem;
 }
 .headingTwo {
-  @apply text-3xl text-center;
+  @apply text-xl text-center;
   margin-top: 1rem;
   margin-bottom: 5rem;
   color: #000533;
 }
 
 .ProjectHeading {
-  @apply text-2xl text-left font-bold mb-2;
+  @apply text-xl text-left font-semibold mb-2;
   color: #000533;
 }
 
 .text {
-  @apply text-2xl;
+  @apply text-xl;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 .btnOne {
-  @apply text-2xl  font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.4rem] w-[20rem] h-16   hover:bg-[#000533] hover:text-[white]  transition-all duration-300;
+  @apply text-xl uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.4rem] w-44 h-10   hover:bg-[#000533] hover:text-[white]  transition-all duration-300;
   color: #000533;
   border: solid 1px #000533;
 }
@@ -47,7 +47,7 @@
 }
 
 .gitContainer {
-  @apply text-2xl cursor-pointer text-[#000533];
+  @apply text-xl cursor-pointer text-[#000533];
   display: inline-block;
   margin-left: 2rem;
 }
@@ -84,7 +84,7 @@
   }
 
   .btnOne {
-    @apply text-2xl  font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.4rem] w-[20rem] h-16   hover:bg-[#000533] hover:text-[white]  transition-all duration-300;
+    @apply text-xl uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.4rem] w-48 h-12   hover:bg-[#000533] hover:text-[white]  transition-all duration-300;
     color: #000533;
     border: solid 1px #000533;
   }
