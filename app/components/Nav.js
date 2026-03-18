@@ -23,7 +23,7 @@ const Nav = async () => {
           <Link href="#projects">Projects</Link>
         </li>
         <li className=" hover:text-green-600  mr-2">
-          <Link href="/pickup">Skills</Link>
+          <Link href="/">Skills</Link>
         </li>
         <li className=" hover:text-gray-800  mr-2">
           <Link href="#footer">Contact Me</Link>
