@@ -48,7 +48,7 @@ function MobileNav() {
         {nav ? <MdClose /> : <MdMenu />}
       </div>
       {nav && (
-        <div className=" motion-preset-slide-up-lg bg-white h-screen  w-screen block ease-in duration-500 fixed md:hidden  z-40">
+        <div className=" motion-preset-slide-right-lg bg-white h-screen  w-screen block ease-in duration-500 fixed md:hidden  z-40">
           <ul
             className="mt-30 ml-20 font-sans  font-semibold"
             onClick={handleClick}

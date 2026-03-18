@@ -13,9 +13,7 @@ const Nav = async () => {
       </div>
 
       <ul className=" hidden md:flex md:justify-center font-sans font-semibold text-white ">
-        {/* <li className=" mr-2 text-zinc-900 hover:text-green-600">
-          <Link href="/products">Products</Link>
-        </li> */}
+    
         <li className="  hover:text-red-500  mr-2">
           <Link href="#aboutme">About Me</Link>
         </li>
