@@ -24,13 +24,13 @@ function MobileNav() {
   }, [nav]);
   return (
     <>
-      <div className="z-50 top  md:hidden cursor-pointer text-3xl ml-2 pt-1 text-white">
+      <div className="z-50 top  md:hidden cursor-pointer text-3xl ml-2 pt-1 text-gray-300">
         <Link
           onClick={() => setNav(false)}
           className={
             nav
-              ? `text-lg  font-semibold ${hover} fixed`
-              : `text-lg font-semibold ${hover}  `
+              ? `text-lg  font-semibold ${hover}  fixed top-1 left-2`
+              : `text-lg font-semibold ${hover} fixed top-1 left-2  `
           }
           href="/"
         >
@@ -42,7 +42,7 @@ function MobileNav() {
         className={
           nav
             ? ` flex cursor-pointer z-50 md:hidden text-3xl fixed top-1 right-2  ${hover} `
-            : ` flex cursor-pointer z-50 md:hidden text-3xl pr-2  ${hover} text-white`
+            : ` flex cursor-pointer z-50 md:hidden text-3xl pr-2  fixed top-1 right-2 ${hover} text-gray-400`
         }
       >
         {nav ? <MdClose /> : <MdMenu />}

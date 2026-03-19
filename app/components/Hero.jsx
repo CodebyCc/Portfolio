@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <main className="bg-black h-screen  mx-auto  text-center  text-white">
+    <main className="bg-black h-screen  mx-auto  text-center  text-gray-300">
       <h1 className={styles.heading}>
         <span className={styles.head}>Hello ,</span> I'm George Boateng
       </h1>

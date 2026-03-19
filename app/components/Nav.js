@@ -5,15 +5,14 @@ import { MdHome } from "react-icons/md";
 
 const Nav = async () => {
   return (
-    <nav className="flex justify-between relative  md:h-10 md:items-center bg-black ">
+    <nav className="flex justify-between  md:h-10 md:items-center  text-gray-400 bg-black z-50 ">
       <div className="z-50 hidden text-3xl  md:block cursor-pointer ml-2 mb-4 pt-1">
         <Link href="/">
-          <MdHome className="text-white" />
+          <MdHome className=" fixed top-1 left-2 " />
         </Link>
       </div>
 
-      <ul className=" hidden md:flex md:justify-center font-sans font-semibold text-white ">
-    
+      <ul className=" hidden md:flex md:justify-center font-sans font-semibold fixed top-1 right-2">
         <li className="  hover:text-red-500  mr-2">
           <Link href="#aboutme">About Me</Link>
         </li>
