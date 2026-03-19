@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { MdMenu, MdClose, MdHome } from "react-icons/md";
+import { FaHome } from "react-icons/fa";
 import Linky from "./Linky";
 
 function MobileNav() {
@@ -34,18 +35,19 @@ function MobileNav() {
           }
           href="/"
         >
-          <MdHome className="text-3xl" />
+          {/* <MdHome className="text-3xl" /> */}
+          <FaHome size={25} />
         </Link>
       </div>
       <div
         onClick={handleClick}
         className={
           nav
-            ? ` flex cursor-pointer z-50 md:hidden text-3xl fixed top-1 right-2  ${hover} `
-            : ` flex cursor-pointer z-50 md:hidden text-3xl pr-2  fixed top-1 right-2 ${hover} `
+            ? ` flex cursor-pointer z-50 md:hidden  fixed top-1 right-1  ${hover} `
+            : ` flex cursor-pointer z-50 md:hidden  pr-2  fixed top-1 right-1 ${hover} `
         }
       >
-        {nav ? <MdClose /> : <MdMenu />}
+        {nav ? <MdClose size={30} /> : <MdMenu size={30} />}
       </div>
       {nav && (
         <div className=" motion-preset-slide-right-lg bg-white h-screen  w-screen block ease-in duration-500 fixed md:hidden  z-40">

@@ -1,14 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import MobileNav from "./MobileNav";
-import { MdHome } from "react-icons/md";
+// import { MdHome } from "react-icons/md";
+import { FaHome } from "react-icons/fa";
 
 const Nav = async () => {
   return (
     <nav className="flex justify-between  md:h-10 md:items-center  text-gray-400 bg-black z-50 ">
       <div className="z-50 hidden text-3xl  md:block cursor-pointer ml-2 mb-4 pt-1">
         <Link href="/">
-          <MdHome className=" fixed top-1 left-2 " />
+          <FaHome size={30} className=" fixed top-0 left-1 " />
         </Link>
       </div>
 
