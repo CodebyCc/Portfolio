@@ -54,7 +54,7 @@ const Featured = () => {
             >
               <Image
                 src={project.img}
-                className={`${styles.img} object-contain`}
+                className={` object-contain`}
                 alt="Screenshots of Projects"
                 height={550}
                 width={400}

@@ -1,5 +1,31 @@
 const projects = [
   {
+    id: 6,
+    ProjectName: "Nb Properties Gh",
+    info: "Conni-avoi is a leather company that deals in the manufacturing and sale of leather products such as Slides, Bags and Sandals",
+    img: "/images/nbprops.png",
+    link: "https://www.nbpropertiesgh.com/",
+    gitLink: "https://github.com/CodebyCc/conni-avoi-demo",
+  },
+
+  {
+    id: 7,
+    ProjectName: "Emvel Royal Products",
+    info: "Conni-avoi is a leather company that deals in the manufacturing and sale of leather products such as Slides, Bags and Sandals",
+    img: "/images/emvel.png",
+    link: "https://www.emvelproducts.com/",
+    gitLink: "https://github.com/CodebyCc/conni-avoi-demo",
+  },
+  {
+    id: 11,
+    ProjectName: "Destiny Changer Travel and Tours",
+    info: "Conni-avoi is a leather company that deals in the manufacturing and sale of leather products such as Slides, Bags and Sandals",
+    img: "/images/destinychanger.png",
+    link: "https://www.destinychangertravelandtour.com/",
+    gitLink: "https://github.com/CodebyCc/conni-avoi-demo",
+  },
+
+  {
     id: 1,
     ProjectName: "Conni-Avoi",
     info: "Conni-avoi is a leather company that deals in the manufacturing and sale of leather products such as Slides, Bags and Sandals",
