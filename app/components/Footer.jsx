@@ -43,7 +43,7 @@ const Footer = () => {
             <EmailIcon fontSize="large" />
           </Link>
         </div>
-        <div className="flex justify-center items-center text-gray-300 text-md font-semibold mb-4">
+        <div className="flex justify-center items-center text-gray-300 text-md font-semibold mb-2">
           <FaPhoneFlip className="mr-2" />
           <p>+2332402625090 / 233205854145</p>
         </div>
