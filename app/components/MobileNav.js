@@ -29,12 +29,12 @@ function MobileNav() {
           onClick={() => setNav(false)}
           className={
             nav
-              ? `text-lg  font-semibold ${hover}  fixed top-1 left-2`
+              ? `text-lg  font-semibold ${hover} text-white `
               : `text-lg font-semibold ${hover} fixed top-1 left-2  `
           }
           href="/"
         >
-          <MdHome className="text-2xl" />
+          <MdHome className="text-3xl" />
         </Link>
       </div>
       <div
@@ -50,7 +50,7 @@ function MobileNav() {
       {nav && (
         <div className=" motion-preset-slide-right-lg bg-white h-screen  w-screen block ease-in duration-500 fixed md:hidden  z-40">
           <ul
-            className="mt-30 ml-20 font-sans  font-semibold"
+            className="mt-30 ml-20 font-sans text-black  font-semibold"
             onClick={handleClick}
           >
             {/* <li className=" hover:text-yellow-600 mb-20 mt-20">
