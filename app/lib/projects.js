@@ -2,7 +2,7 @@ const projects = [
   {
     id: 6,
     ProjectName: "Nb Properties Gh",
-    info: "Conni-avoi is a leather company that deals in the manufacturing and sale of leather products such as Slides, Bags and Sandals",
+    info: "Built the official webpage for NB Properties Gh. NB Properties Gh is a real estate company in Ghana that deals in the sale and building of properties such as dream homes, apartments, offices,  etc.",
     img: "/images/nbprops.png",
     link: "https://www.nbpropertiesgh.com/",
     gitLink: "https://github.com/CodebyCc/conni-avoi-demo",
@@ -11,7 +11,7 @@ const projects = [
   {
     id: 7,
     ProjectName: "Emvel Royal Products",
-    info: "Conni-avoi is a leather company that deals in the manufacturing and sale of leather products such as Slides, Bags and Sandals",
+    info: "Developed the official webpage for Emvel Royal Products. Emvel Royal Products is a company that manufactures and sells natural skincare products in Ghana",
     img: "/images/emvel.png",
     link: "https://www.emvelproducts.com/",
     gitLink: "https://github.com/CodebyCc/conni-avoi-demo",
@@ -19,7 +19,7 @@ const projects = [
   {
     id: 11,
     ProjectName: "Destiny Changer Travel and Tours",
-    info: "Conni-avoi is a leather company that deals in the manufacturing and sale of leather products such as Slides, Bags and Sandals",
+    info: "Destiny Changer is a travel company that helps students and individuals to find the best travel and tour packages for their trips",
     img: "/images/destinychanger.png",
     link: "https://www.destinychangertravelandtour.com/",
     gitLink: "https://github.com/CodebyCc/conni-avoi-demo",
@@ -36,14 +36,14 @@ const projects = [
   {
     id: 2,
     ProjectName: "CWHS",
-    info: "CWHS is web hosting service for developers ",
+    info: "CWHS is a dummy web hosting service for developers ",
     img: "/images/cwhs.png",
     link: "https://cwhs.netlify.app/",
   },
   {
     id: 3,
     ProjectName: "Pizza Delivery App",
-    info: "This is the official webpage for imaginary pizza in Ghana",
+    info: "This is the official webpage for imaginary pizza shop in Ghana",
     img: "/images/pizzain.png",
     link: "https://pizzain.netlify.app",
   },

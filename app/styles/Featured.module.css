@@ -30,11 +30,6 @@
   color: #000533;
 }
 
-.text {
-  @apply text-xl;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
 .btnOne {
   @apply text-xl uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.4rem] w-44 h-10   hover:bg-[#000533] hover:text-[white]  transition-all duration-300;
   color: #000533;
@@ -72,9 +67,9 @@
     margin-top: 0;
     animation: slidein 0.5s none normal ease-out;
   }
-  .text {
+  /* .text {
     width: 50ch;
-  }
+  } */
   .imgContainer {
     @apply object-cover relative;
     height: 60vh;

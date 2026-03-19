@@ -6,6 +6,7 @@ import { delay, motion } from "framer-motion";
 import projects from "../lib/projects";
 
 import Link from "next/link";
+import Grid from "./Grid";
 
 const Featured = () => {
   return (
@@ -31,7 +32,7 @@ const Featured = () => {
       </motion.h3>
       {projects.map((project) => {
         return (
-          <div key={project.id} className={styles.container}>
+          <Grid key={project.id}>
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -40,7 +41,7 @@ const Featured = () => {
               className={styles.infoContainer}
             >
               <h2 className={styles.ProjectHeading}>{project.ProjectName}</h2>
-              <p className={styles.text}>{project.info}</p>
+              <p className="text-md text-gray-800">{project.info}</p>
               <Link target="_blank" href={project.link}>
                 <button className={styles.btnOne}>View Live</button>
               </Link>
@@ -50,17 +51,18 @@ const Featured = () => {
               whileInView={{ x: 0 }}
               transition={{ type: "tween", duration: 0.8, delay: 0.1 }}
               viewport={{ once: true }}
-              className={styles.imgContainer}
+              // className={styles.imgContainer}
+              className="flex justify-center items-center "
             >
               <Image
                 src={project.img}
-                className={` object-contain`}
+                className="object-contain"
                 alt="Screenshots of Projects"
                 height={550}
                 width={400}
               />
             </motion.div>
-          </div>
+          </Grid>
         );
       })}
     </div>

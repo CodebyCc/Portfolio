@@ -7,6 +7,9 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 import EmailIcon from "@mui/icons-material/Email";
+// import WhatsappIcon from "@mui/icons-material";
+import { FaPhone, FaWhatsapp } from "react-icons/fa";
+import { FaPhoneFlip } from "react-icons/fa6";
 
 const d = new Date();
 const date = d.getFullYear();
@@ -23,6 +26,10 @@ const Footer = () => {
       </svg>
       <div className={styles.container}>
         <div className={styles.iconsContainer}>
+          <Link href="https://wa.me/233240265090" target="_blank">
+            {/* <WhatsappIcon fontSize="large" /> */}
+            <FaWhatsapp className="text-4xl" />
+          </Link>
           <Link
             href="https://www.linkedin.com/in/george-boateng-938a7318a/"
             target="_blank"
@@ -32,12 +39,16 @@ const Footer = () => {
           <Link href="https://github.com/CodebyCc">
             <GitHubIcon fontSize="large" />
           </Link>
-          <Link href="mailto:ciici6440@gmail.com">
+          <Link href="mailto:georgeboateng1125@gmail.com">
             <EmailIcon fontSize="large" />
           </Link>
         </div>
+        <div className="flex justify-center items-center text-gray-300 text-md font-semibold mb-4">
+          <FaPhoneFlip className="mr-2" />
+          <p>+2332402625090 / 233205854145</p>
+        </div>
         <h2 className={styles.headingTwo}>
-          {date} George Boateng <CopyrightIcon />
+          <CopyrightIcon /> {date} George Boateng
         </h2>
       </div>
     </div>
