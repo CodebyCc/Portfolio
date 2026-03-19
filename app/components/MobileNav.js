@@ -42,7 +42,7 @@ function MobileNav() {
         className={
           nav
             ? ` flex cursor-pointer z-50 md:hidden text-3xl fixed top-1 right-2  ${hover} `
-            : ` flex cursor-pointer z-50 md:hidden text-3xl pr-2  fixed top-1 right-2 ${hover} text-gray-400`
+            : ` flex cursor-pointer z-50 md:hidden text-3xl pr-2  fixed top-1 right-2 ${hover} `
         }
       >
         {nav ? <MdClose /> : <MdMenu />}
