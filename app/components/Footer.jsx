@@ -45,9 +45,9 @@ const Footer = () => {
         </div>
         <div className="flex justify-center items-center text-gray-300 text-md font-semibold mb-2">
           <FaPhoneFlip className="mr-2" />
-          <p>+2332402625090 / 233205854145</p>
+          <p>2332402625090 / 233205854145</p>
         </div>
-        <h2 className={styles.headingTwo}>
+        <h2 className=" text-center  text-gray-300 text-md  ">
           <CopyrightIcon /> {date} George Boateng
         </h2>
       </div>

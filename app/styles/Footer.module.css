@@ -13,15 +13,10 @@
   align-items: center;
   margin: auto;
   height: 80%;
-  width: 30vw;
+  width: 40vw;
 
   color: white;
 }
 .icon {
   padding-left: 2rem;
-}
-.headingTwo {
-  @apply text-xl text-center;
-  color: white;
-  border-top: solid 1px white;
 }
