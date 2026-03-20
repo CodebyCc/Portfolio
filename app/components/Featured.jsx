@@ -38,7 +38,7 @@ const Featured = () => {
               whileInView={{ opacity: 1 }}
               transition={{ type: "tween", duration: 1, delay: 0.3 }}
               viewport={{ once: true }}
-              className={styles.infoContainer}
+              className="mb-1 ml-4 md:ml-6"
             >
               <h2 className={styles.ProjectHeading}>{project.ProjectName}</h2>
               <p className="text-md text-gray-800">{project.info}</p>
