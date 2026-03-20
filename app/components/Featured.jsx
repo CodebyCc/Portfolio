@@ -52,7 +52,7 @@ const Featured = () => {
               transition={{ type: "tween", duration: 0.8, delay: 0.1 }}
               viewport={{ once: true }}
               // className={styles.imgContainer}
-              className="flex justify-center items-center "
+              className="flex justify-center items-center mb-6 md:mb-0"
             >
               <Image
                 src={project.img}
